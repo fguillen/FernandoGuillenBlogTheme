@@ -1,0 +1,476 @@
+/*
+div{
+border: 1px solid black;
+}
+*/
+
+
+* {
+	margin:0; 
+	padding:0;
+}
+
+html {
+	background: #fff;
+}
+
+body {
+	background: #fff; 
+	color:#666; 
+	font-family:Arial, Helvetica,  sans-serif;
+font-size: 14px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:12px;
+}
+
+p {
+	font-family: helvetica, Georgia, "Times New Roman", Times, serif; 
+	margin-bottom:5px;
+}
+
+a {
+	color:#000; 
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+ul{
+
+list-style-type: none
+}
+
+
+.oculto{
+	display:none;
+}
+
+#contenedor {
+	margin:10px 45px 10px 45px; 
+	width:740px; 
+	background:#fff; 
+	padding:10px 0;
+}
+
+
+#info {
+	float:right; 
+	color:#666; 
+	text-align:right;
+}
+
+#info p {
+	font-family:Arial, Helvetica,  sans-serif; 
+	margin:0; 
+	font-size:10px;
+}
+
+#intro {
+margin: 5px 0 10px 0;
+border-bottom: 1px solid #111;
+}
+
+#intro p{
+padding: 5px 0 0 10px; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+font-size: 15px;
+}
+
+#habilidades{
+width: 240px;
+padding: 0 5px 0 0;
+float: left;
+margin-bottom: 10px;
+}
+
+#deshabilidades{
+width: 240px;
+padding: 0 5px;
+float: left;
+margin-bottom: 10px;
+}
+
+#gustos{
+width: 240px;
+padding: 0 0 0 5px;
+margin-bottom: 10px;
+float: left;
+}
+
+h2{
+  font-family: Times New Roman,Times,serif;
+  font-size: 14px;
+
+}
+
+h4 {
+	font-family:Arial, Helvetica,  sans-serif;
+	font-size: 19px; 
+	color:#111; 
+	margin:10px 0 5px 0;
+	font-weight:100;
+}
+
+#menu {
+	clear:both; 
+	border:solid #111; 
+	border-width:1px 0; 
+	padding:7px 0 5px 0;
+	width: 100%;
+}
+
+#menu li {
+	display:inline; 
+	list-style-type:none; 
+	padding:0 10px 0 0;
+}
+
+
+
+#menu li a {
+	font:100 20px/20px Georgia, "Times New Roman", Times, serif; 
+	text-transform:uppercase; 
+	padding:5px; 
+	text-align:center; 
+	color:#111;
+		text-decoration:none;
+}
+
+#menu li a:hover {
+	background:#111; 
+	color:#fff;
+}
+
+
+#cabecera {
+	margin-bottom:15px;
+}
+
+#cabecera h1 {
+	color:#111; 
+	font-size:40px; 
+	font-weight:700; 
+	line-height:33px; 
+	margin:0 0 0 0; 
+	clear:both;
+}
+
+#cabecera h2 {
+	font:100 20px/20px Georgia, "Times New Roman", Times, serif;
+	color:#111;
+padding: 0 0 0 5px;
+}
+
+#pie{
+clear: both;
+border-top: 1px solid black;
+padding: 10px 0 10px 0;
+}
+
+/**
+*
+* BIO
+*
+**/
+
+#bio{
+}
+
+#bio h4{
+float: left;
+clear: left;
+font-size: 12px;
+vertical-align: top;
+margin: 0 5px 0 0;
+font-weight: bold;
+}
+
+#bio p{
+margin: 0 0 10px 10px
+}
+
+
+
+#bio1{
+width: 240px;
+padding: 0 5px 0 0;
+float: left;
+margin-bottom: 10px;
+}
+
+#bio2{
+width: 240px;
+padding: 0 5px;
+float: left;
+margin-bottom: 10px;
+}
+
+#bio3{
+width: 240px;
+padding: 0 0 0 5px;
+margin-bottom: 10px;
+float: left;
+}
+
+/**
+*
+* CURRICULO
+*
+**/
+#curriculo ul{
+margin: 0 0 0 15px;
+}
+
+#curriculo #resto>ul{
+list-style-type: circle;
+}
+
+#curriculo #resto li.doble{
+margin-top: 5px;
+}
+
+#curriculo #datos{
+width: 300px;
+float: left;
+}
+
+#curriculo #resto{
+margin-left: 310px;
+margin-bottom: 10px;
+}
+
+/**
+*
+* PROYECTOS
+*
+**/
+
+#proyectos .imagen{
+float: left;
+clear: left;
+}
+
+#proyectos .texto{
+margin-left: 300px;
+}
+blockquote
+#proyectos h4{
+
+}
+
+.proyecto{
+clear: both;
+padding-bottom: 10px;
+}
+
+.proyecto img{
+border: 1px solid #666;
+margin-top: 5px;
+}
+
+
+/**
+*
+* BLOG
+*
+**/
+
+.post ul{
+padding-left: 40px;
+margin-bottom: 10px;
+}
+
+.post ul li{
+list-style: circle;
+}
+
+.post h4{
+font: 24px georgia,times,serif;
+margin-bottom: 10px;
+font-weight: bold;
+font-style: italic;
+}
+
+.post h5{
+font-size: 18px;
+margin-top: 20px;
+margin-bottom: 5px;
+}
+
+.post .entry a{
+text-decoration: underline;
+}
+
+pre {
+  font:  12px Monaco, monospace;
+  color: black;
+  background-color: #e5f6f6;
+  border: dashed 1px #AAA;
+  padding: 8px 8px;
+  margin: 10px 10px 10px 20px;
+}
+
+#contenido_blog{
+width: 500px;
+float: left;
+}
+
+input, textarea{
+border: 1px solid #111;
+}
+
+textarea{
+width: 500px;
+}
+
+#searchform #s{
+width: 120px;
+}
+
+#sidebar{
+float: left;
+width: 200px;
+text-align:right;
+margin-left: 30px;
+}
+
+#sidebar h5{
+margin-top: 10px;
+border-bottom: 1px solid #111;
+}
+
+.entry p.postmetadata{
+border: 1px solid #ccc;
+text-align: justify;
+padding: 10px;
+font: 12px/14px arial, sans-serif;
+margin-top: 15px;
+}
+
+h5#comments, h5#respond{
+margin-top: 10px;
+}
+
+.commentlist li{
+margin: 20px;
+padding: 10px;
+border-top: 1px solid #ccc;
+}
+
+.entry p{
+color: #444;
+font-weight: 100;
+font: 16px/19px georgia,times,serif;
+}
+
+.entry img{
+max-width: 100%;
+/* hack for ie */
+width:expression(this.width > 500 ? "500px" : this.width);
+border: 0px;
+}
+
+.post{
+margin-bottom: 40px;
+}
+
+
+.post h4{
+margin-top: 0px;
+}
+
+strong{
+font-weight: bold;
+}
+
+blockquote {
+font-size: 18px;
+font-family: Times New Roman,Times,serif;
+font-style: italic;
+
+  padding: 8px;
+  background-color: #f7fbe2;
+  border-top: 1px solid #edf3cb;
+  border-bottom: 1px solid #edf3cb;
+  margin: 20px 50px 30px 50px;
+  background-image: url(/es/blog/wp-content/uploads/2008/04/openquote.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+  }
+
+
+.date{
+font-size: 10px;
+}
+
+
+.navigation{
+margin-bottom: 10px;
+font-size: 12px;
+}
+
+.navigation a{
+color: #555;
+}
+
+
+.entry>p:first-letter {
+padding-left: 10px;
+}
+
+p.postmetadata:first-letter {
+padding-left: 0px;
+}
+
+
+#sidebar li{
+display:inline;
+margin-left: 5px;
+padding-left: 4px;
+/*border-left: 1px solid #ccc;*/
+}
+
+#sidebar li{
+font-size: 12px;
+}
+
+
+
+#alert-message:hover{
+bottom: 0px;
+}
+
+#alert-message{
+background-color: #333;
+font: 12px arial;
+width: 150px;
+position: fixed;
+bottom: -28px;
+left: 100px;
+text-align: center;
+padding: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 0px;
+}
+
+#alert-message h2{
+font: 12px arial;
+font-weight: bold;
+margin-bottom: 8px;
+color: #ccc;
+}
+
+#alert-message a{
+color: #eee;
+
+}
+
